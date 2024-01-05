@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="#16C6C0"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
-        android:text="TIC TAC TOE"
+        android:text="@string/title"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold|italic" />
@@ -197,6 +197,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
         android:background="#AA00FF"
-        android:text="Restart" />
+        android:text="@string/restart" />
 
 </LinearLayout>
