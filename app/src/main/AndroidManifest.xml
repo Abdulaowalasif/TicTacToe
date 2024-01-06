@@ -21,6 +21,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/appId" />
+        <meta-data
+            android:name="com.google.android.gms.ads.adSize"
+            android:value="BANNER" />
+        <meta-data
+            android:name="com.google.android.gms.ads.adUnitId"
+            android:value="@string/adId" />
     </application>
 
 </manifest>

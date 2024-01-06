@@ -2,4 +2,7 @@
     <string name="app_name">TicTacToe</string>
     <string name="title">TIC TAC TOE</string>
     <string name="restart">Restart</string>
+
+    <string name="appId">ca-app-pub-1613285318591753~6029062581</string>
+    <string name="adId">ca-app-pub-1613285318591753/8243896450</string>
 </resources>
